@@ -24,12 +24,12 @@
         </div>
         
         <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-emerald-100 to-teal-200 leading-tight">
-            Shop the Future<br>
-            <span class="text-emerald-400">Today</span>
+            Glow Candles With<br>
+            <span class="text-emerald-400">Love</span>
         </h1>
         
         <p class="text-xl md:text-2xl mb-8 text-emerald-100 max-w-3xl mx-auto leading-relaxed">
-            Discover premium products that define excellence. From cutting-edge electronics to lifestyle essentials, find everything you need in one place.
+            ✨Illuminate your world with our handcrafted glowing candles. Bringing warmth, beauty, and serenity to every moment.✨
         </p>
         
         <div class="flex flex-col sm:flex-row gap-6 justify-center mb-12">
