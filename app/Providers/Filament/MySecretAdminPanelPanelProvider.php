@@ -25,8 +25,8 @@ class MySecretAdminPanelPanelProvider extends PanelProvider
     {
         return $panel
             ->default()
-            ->id('my-Secret-admin-panel')
-            ->path('my-Secret-admin-panel')
+            ->id('admin')
+            ->path('admin')
             ->login()
             ->colors([
                 'primary' => Color::Amber,
@@ -37,10 +37,6 @@ class MySecretAdminPanelPanelProvider extends PanelProvider
                 Dashboard::class,
             ])
             ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\Filament\Widgets')
-            ->widgets([
-                AccountWidget::class,
-                FilamentInfoWidget::class,
-            ])
             ->middleware([
                 EncryptCookies::class,
                 AddQueuedCookiesToResponse::class,
